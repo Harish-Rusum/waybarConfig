@@ -5,8 +5,8 @@
     font-family: JetBrainsMono Nerd Font;
     font-size: 18px;
     font-weight: 600; /* Thicker font globally */
-    color: #89b4fa;
-    /* color : #e78888; */
+    /* color: #89b4fa; */
+    color : #e78888;
     transition: background-color 0.3s ease-out, color 0.3s ease-out;
 }
 
