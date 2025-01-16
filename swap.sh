@@ -1,7 +1,7 @@
 #!/bin/env bash
-mv colorsAlternate.css temp.css
-mv colors.css colorsAlternate.css
-mv temp.css colors.css
-mv style.css temp.css
-mv styleAlternate.css style.css
-mv temp.css styleAlternate.css
+mv ~/.config/waybar/colorsAlternate.css ~/.config/waybar/temp.css
+mv ~/.config/waybar/colors.css ~/.config/waybar/colorsAlternate.css
+mv ~/.config/waybar/temp.css ~/.config/waybar/colors.css
+mv ~/.config/waybar/style.css ~/.config/waybar/temp.css
+mv ~/.config/waybar/styleAlternate.css ~/.config/waybar/style.css
+mv ~/.config/waybar/temp.css ~/.config/waybar/styleAlternate.css
