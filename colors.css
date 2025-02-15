@@ -1,26 +1,27 @@
-@define-color rosewater #ffe4e1;
-@define-color flamingo #fbb6b6;
-@define-color pink #fcb1c8;
-@define-color mauve #e49cb8;
-@define-color red #ff6b6b;
-@define-color maroon #d35d6e;
-@define-color peach #ff9e7c;
-@define-color yellow #ffce87;
-@define-color green #b6e2aa;
-@define-color teal #a0d5c1;
-@define-color sky #f2a4a4;
-@define-color sapphire #e78888;
-@define-color blue #d97f7f;
-@define-color lavender #db7c8c;
-@define-color text #e78888;
-@define-color subtext1 #e6c6c8;
-@define-color subtext0 #d9b5b7;
-@define-color overlay2 #cfa1a2;
-@define-color overlay1 #c38e8e;
-@define-color overlay0 #b77c7c;
-@define-color surface2 #9e6060;
-@define-color surface1 #8a4e4e;
-@define-color surface0 #753c3c;
-@define-color base #472727;
-@define-color mantle #3a1f1f;
-@define-color crust #2f1818;
+@define-color rosewater #e0bfe0;  /* Soft Lilac */
+@define-color flamingo #d8a8d8;  /* Muted Lavender */
+@define-color pink #e5a2f2;  /* Bright Orchid */
+@define-color mauve #b084f7;  /* Rich Mauve */
+@define-color red #d178c1;  /* Magenta-Tinted Red */
+@define-color maroon #c988d1;  /* Rosy Purple */
+@define-color peach #e6a3cf;  /* Pinkish Lilac */
+@define-color yellow #dfc3f0;  /* Pale Amethyst */
+@define-color green #b4d3f0;  /* Soft Blue-Lavender */
+@define-color teal #a8c2f5;  /* Cool Periwinkle */
+@define-color sky #8fa9f0;  /* Sky Blue with Purple Tint */
+@define-color sapphire #7b90f0;  /* Deep Lavender Blue */
+@define-color blue #9484f7;  /* True Purple */
+@define-color lavender #b49af7;  /* Soft Purple Lavender */
+@define-color text #d0c7f4;  /* Off-White Purple */
+@define-color subtext1 #b8b0de;  /* Subtle Pastel Purple */
+@define-color subtext0 #a69ec8;  /* Soft Desaturated Lilac */
+@define-color overlay2 #958ab2;  /* Greyish Violet */
+@define-color overlay1 #82759c;  /* Muted Plum */
+@define-color overlay0 #6f6286;  /* Deep Muted Purple */
+@define-color surface2 #5c4f70;  /* Dark Grape */
+@define-color surface1 #493d5a;  /* Dusty Purple */
+@define-color surface0 #362a44;  /* Deep Eggplant */
+@define-color mantle #22132f;  /* Shadowy Purple */
+@define-color base #22132f;  /* Shadowy Purple */
+@define-color crust #22132f;  /* Shadowy Purple */
+

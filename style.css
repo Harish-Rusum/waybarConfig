@@ -1,12 +1,10 @@
-
 @import "colors.css";
 
 * {
     font-family: JetBrainsMono Nerd Font;
     font-size: 18px;
     font-weight: 600; /* Thicker font globally */
-    /* color: #89b4fa; */
-    color : #e78888;
+    color : #b084f7;
     transition: background-color 0.3s ease-out, color 0.3s ease-out;
 }
 
@@ -68,7 +66,7 @@ window#waybar {
 #power-profiles-daemon:hover,
 #language:hover,
 #mpd:hover {
-    background: rgba(26, 27, 38, 0.9); /* Crust with slight opacity */
+    background: rgba(75, 0, 130, 0.9); /* Indigo with slight opacity */
     color: @text; /* Slightly lighter text on hover */
 }
 
@@ -77,7 +75,7 @@ window#waybar {
     font-family: SpaceMono Nerd Font, feather;
     font-weight: 900; /* Even thicker for workspace buttons */
     font-size: 13pt;
-    color: @blue; /* Blue */
+    color: @mauve; /* Soft Mauve */
     border: none;
     border-radius: 15px; /* Rounded corners */
     transition: background-color 0.3s ease-out;
@@ -101,11 +99,11 @@ window#waybar {
     padding: 0 10px;
     font-size: 25px;
     transition: color 0.5s;
-    color: @blue; /* Blue */
+    color: @mauve; /* Purple */
 }
 
 #custom-arch:hover {
-    color: @lavender; /* Lighter blue on hover */
+    color: @lavender; /* Lighter purple on hover */
 }
 
 .popup {
@@ -131,3 +129,4 @@ window#waybar {
     background: @mantle; /* Mantle */
     color: @text; /* White text on hover */
 }
+
