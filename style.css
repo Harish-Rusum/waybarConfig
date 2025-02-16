@@ -4,7 +4,7 @@
     font-family: JetBrainsMono Nerd Font;
     font-size: 18px;
     font-weight: 600; /* Thicker font globally */
-    color : #b084f7;
+    color: @text;
     transition: background-color 0.3s ease-out, color 0.3s ease-out;
 }
 
@@ -15,14 +15,17 @@ window#waybar {
 }
 
 .modules-left, .modules-center, .modules-right {
-    background: @mantle; /* Mantle */
+    background: @base; /* Dark base */
     margin: 5px 10px;
     padding: 0 5px;
     border-radius: 15px;
+    box-shadow: 0 0 5px rgba(20, 20, 30, 0.9999); /* Soft glow */
+    font-family: JetBrainsMono Nerd Font, feather;
 }
 
 .modules-center {
     padding: 0 10px;
+    font-family: JetBrainsMono Nerd Font, feather;
 }
 
 #clock,
@@ -45,6 +48,7 @@ window#waybar {
 #mpd {
     padding: 0 10px;
     border-radius: 15px;
+    background: @mantle; /* Dark background */
     transition: background-color 0.3s ease-out, color 0.3s ease-out;
 }
 
@@ -66,32 +70,31 @@ window#waybar {
 #power-profiles-daemon:hover,
 #language:hover,
 #mpd:hover {
-    background: rgba(75, 0, 130, 0.9); /* Indigo with slight opacity */
-    color: @text; /* Slightly lighter text on hover */
+    color: @text;
 }
 
 #workspaces button {
-    background: @mantle; /* Mantle */
+    background: @base;
     font-family: SpaceMono Nerd Font, feather;
-    font-weight: 900; /* Even thicker for workspace buttons */
+    font-weight: 900;
     font-size: 13pt;
-    color: @mauve; /* Soft Mauve */
+    color: @mauve;
     border: none;
-    border-radius: 15px; /* Rounded corners */
+    border-radius: 15px;
     transition: background-color 0.3s ease-out;
 }
 
 #workspaces button.active {
-    color: @text; /* Active button text color */
-    background: @surface1; /* Subtle background for active button */
+    color: @text;
+    background: @surface1;
     border-radius: 15px;
 }
 
 #workspaces button:hover {
-    background: @surface0; /* Subtle hover background */
+    background: @surface0;
     border-radius: 15px;
     box-shadow: none;
-    color: inherit; /* Maintain the original text color */
+    color: inherit;
 }
 
 #custom-arch {
@@ -99,24 +102,24 @@ window#waybar {
     padding: 0 10px;
     font-size: 25px;
     transition: color 0.5s;
-    color: @mauve; /* Purple */
+    color: @mauve;
 }
 
 #custom-arch:hover {
-    color: @lavender; /* Lighter purple on hover */
+    color: @lavender;
 }
 
 .popup {
-    background: @mantle; /* Mantle */
-    color: @text; /* Text color */
+    background: @base;
+    color: @text;
     border-radius: 15px;
     padding: 10px;
     transition: background-color 0.3s ease-out, color 0.3s ease-out;
 }
 
 .popup:hover {
-    background: @mantle; /* Mantle */
-    color: @text; /* White text on hover */
+    background: @mantle;
+    color: @text;
 }
 
 .popup-item {
@@ -126,7 +129,7 @@ window#waybar {
 }
 
 .popup-item:hover {
-    background: @mantle; /* Mantle */
-    color: @text; /* White text on hover */
+    background: @surface0;
+    color: @text;
 }
 
